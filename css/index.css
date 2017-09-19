@@ -753,7 +753,7 @@ body,
 .slide8 div:nth-child(3) {
   position: absolute;
   color: #fef6ea;
-  font-size: .12rem;
+  font-size: .2rem;
   line-height: inherit;
   background-color: initial;
   top: 5.5rem;
@@ -762,11 +762,11 @@ body,
 .slide8 div:nth-child(4) {
   position: absolute;
   color: #fef6ea;
-  font-size: .12rem;
+  font-size: .2rem;
   line-height: inherit;
   background-color: initial;
   top: 6rem;
-  left: 1.8rem;
+  left: 1.9rem;
 }
 .music {
   width: 0.6rem;
