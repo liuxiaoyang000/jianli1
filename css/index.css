@@ -625,11 +625,8 @@ body,
 }
 .slide6 img {
   opacity: 0;
-  width: 5.4rem;
-  height: 7.83rem;
+  height: 100%;
   position: absolute;
-  top: 1rem;
-  left: .5rem;
 }
 .slide6 div {
   opacity: 0;
