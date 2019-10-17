@@ -265,14 +265,27 @@ body,
   top: 2.1rem;
   left: .2rem;
 }
-.slide3 div {
+.slide3 div:nth-child(1) {
   position: absolute;
-  top: 7rem;
-  left: 1rem;
-  width: 2.1rem;
+  top: 1rem;
+  padding: 10px;
   font-size: .25rem;
   color: white;
 }
+.slide3 div:nth-child(2) {
+    position: absolute;
+    top: 3.5rem;
+    padding: 10px;
+    font-size: .25rem;
+    color: white;
+  }
+.slide3 div:nth-child(2) {
+    position: absolute;
+    top: 4.5rem;
+    padding: 10px;
+    font-size: .25rem;
+    color: white;
+  }
 .slide3 p {
   position: absolute;
   top: 6.4rem;
@@ -299,10 +312,15 @@ body,
   font-size: .25rem;
   color: white;
 }
-#page3 img:nth-child(4) {
-  opacity: 1;
-  -webkit-animation: bounceInRight 1.5s 1 linear both;
-  animation: bounceInRight 1.5s 1 linear both;
+#page3 div:nth-child(1) {
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1.5s .5s 1 linear both;
+    animation: bounceInLeft 1.5s .5s 1 linear both;
+}
+#page3 div:nth-child(2) {
+    opacity: 1;
+    -webkit-animation: bounceInRight 1.5s .5s 1 linear both;
+    animation: bounceInRight 1.5s .5s 1 linear both;
 }
 #page3 img:nth-child(1) {
   opacity: 1;
@@ -416,17 +434,17 @@ body,
 }
 .slide4 div:nth-child(8) {
   position: absolute;
-  top: 2.4rem;
-  left: 2.8rem;
-  width: 2rem;
+  top: 1rem;
+  left: 1rem;
+  width: 4rem;
   font-size: .25rem;
   color: white;
 }
 .slide4 div:nth-child(9) {
   position: absolute;
-  top: 5.6rem;
+  top: 4.5rem;
   left: .9rem;
-  width: 2rem;
+  width: 4rem;
   font-size: .25rem;
   color: white;
 }
@@ -465,13 +483,13 @@ body,
 }
 #page4 div:nth-child(8) {
   opacity: 1;
-  -webkit-animation: bounceInRight 2s .8s 1 linear both;
-  animation: bounceInRight 2s 1s 1 linear both;
+  -webkit-animation: bounceInRight 1s .1s 1 linear both;
+  animation: bounceInRight 1s 0.1s 1 linear both;
 }
 #page4 div:nth-child(9) {
   opacity: 1;
-  -webkit-animation: bounceInRight 2s 1.9s 1 linear both;
-  animation: bounceInRight 2s 1.9s 1 linear both;
+  -webkit-animation: bounceInRight 1s 1.9s 1 linear both;
+  animation: bounceInRight 1s 1.9s 1 linear both;
 }
 .slide5 img {
   opacity: 0;
