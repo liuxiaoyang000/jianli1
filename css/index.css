@@ -161,7 +161,7 @@ body,
   height: 5rem;
   position: absolute;
   top: 2.5rem;
-  left: 2.8rem;
+  left: 2rem;
   font-size: .27rem;
   font-family: fangzheng_stjt;
 }
@@ -189,7 +189,7 @@ body,
   width: 2.5rem;
   opacity: 1;
 }
-.slide5 img {
+.slide5 div {
   opacity: 0;
 }
 .slide5 p {
@@ -546,7 +546,6 @@ body,
   position: absolute;
   top: 1.7rem;
   left: 2.9rem;
-  width: 2rem;
   font-size: .3rem;
   color: white;
 }
@@ -560,7 +559,7 @@ body,
 .slide3 div:nth-child(9) {
   position: absolute;
   top: 4.6rem;
-  left: 1rem;
+  left: .5rem;
   font-size: .3rem;
   color: white;
 }
