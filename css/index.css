@@ -166,11 +166,11 @@ body,
   font-family: fangzheng_stjt;
 }
 .slide2 div span {
-  width: 0rem;
+  width: 2rem;
   display: block;
   padding-bottom: .3rem;
   clear: both;
-  transition: 4s linear 1.7s;
+  /* transition: 4s linear 1.7s; */
   overflow: hidden;
 }
 .slide2 div span:nth-child(1) {
@@ -624,7 +624,8 @@ body,
 }
 .slide7 img {
   opacity: 0;
-  height: 100%;
+  width: 100%;
+  top: 4rem;
   position: absolute;
 }
 .slide7 div {
