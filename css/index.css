@@ -436,15 +436,15 @@ body,
   position: absolute;
   top: 1rem;
   left: 1rem;
-  width: 4rem;
+  width: 5rem;
   font-size: .25rem;
   color: white;
 }
 .slide4 div:nth-child(9) {
   position: absolute;
-  top: 4.5rem;
+  top: 4rem;
   left: .9rem;
-  width: 4rem;
+  width: 5rem;
   font-size: .25rem;
   color: white;
 }
